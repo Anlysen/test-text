@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/* Сайт */
 body {
     max-width: 1440px;
 }
@@ -18,6 +19,8 @@ a {
     text-decoration: none;
 }
 
+
+/* Шапка */
 header {
     width: 680px;
 }
@@ -45,7 +48,7 @@ p {
     margin: 48px 0 10px 0;
 }
 
-.north-txt {
+.header-txt-2 {
     font-family: 'Roboto';
     font-size: 15px;
     font-weight: 400;
@@ -74,8 +77,11 @@ li {
     text-align: left;
 }
 
+
+/* Блок-1 */
 .block-1 {
     width: 992px;
+    display: flex;
 }
 
 .block-txt {
@@ -95,12 +101,26 @@ li {
     float: right;
     width: 246px;
     height: 82px;
+    margin: 166px 0 0 111px;
 }
 
-.links {
+
+/* Сылки */
+.links-block {
     width: 680px;
     margin-top: 60px;
+    border: 1px solid #00000026;
+    padding: 25px;
+}
 
+.block-links-2 {
+    
+}
+
+.row-link {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 8px 0;
 }
 
 .links-txt-h2 {
@@ -114,7 +134,7 @@ li {
 }
 
 .look-img {
-
+    margin: -25px 0 0 25px;
 }
 
 .links-txt {
@@ -123,18 +143,25 @@ li {
     font-weight: 400;
     line-height: 26px;
     text-align: left;
-    padding-bottom: 20px;
 }
 
 .links-img {
     float: right;
 }
 
+hr {
+    border: 1px solid #00000026;
+}
+
+
+/* Блок-2 */
 .block-2 {
     width: 680px;
     margin-top: 60px;
 }
 
+
+/* Обратная связь */
 .feedback {
     width: 680px;
 }
@@ -142,6 +169,8 @@ li {
 .man {
 }
 
+
+/* Блок-3 */
 .block-3 {
     width: 680px;
 }
