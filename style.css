@@ -156,21 +156,75 @@ hr {
 
 /* Блок-2 */
 .block-2 {
-    width: 680px;
+    width: 992px;
     margin-top: 60px;
+    display: flex;
+}
+
+.block-2-txt {
+    width: 680px;
+}
+
+.block-2-txt-main {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.img-txt-link {
+    width: 264px;
+    height: 208px;
+    margin: 230px 0 0 48px;
 }
 
 
 /* Обратная связь */
 .feedback {
-    width: 680px;
+    width: 992px;
+    margin-top: 48px;
+    border-left: 1px solid #000000;
 }
 
-.man {
+.feed-back-txt {
+    width: 647px;
+    margin-left: 35px;
 }
+
+.avatar {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 35px;
+}
+
+.ava-txt {
+    margin-left: 13px;
+}
+
 
 
 /* Блок-3 */
 .block-3 {
     width: 680px;
+    margin: 48px 0 64px 0;
+}
+
+
+/* Адаптив */
+
+/* Компьюторная версия */
+@media (min-width: 1440px) {
+    
+}
+
+/* Версия для планшетов */
+@media (min-width: 768px) {
+    
+}
+
+/* Мобильная версия */
+@media (min-width: 320px) {
+    
 }
